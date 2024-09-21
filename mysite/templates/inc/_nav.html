@@ -1,0 +1,9 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a href = "{% url 'home' %}" class="navbar-brand">Olimpiadnik</a>
+        <form action="{% url 'search' %}" class="d-flex" role="search">
+            <input name="search_text" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Поиск</button>
+        </form>
+    </div>
+</nav>
